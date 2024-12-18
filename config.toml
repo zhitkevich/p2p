@@ -1,0 +1,14 @@
+[path]
+app = ".p2p"
+private_key = "keys/private.pem"
+public_key = "keys/public.pem"
+peer_info = "peer_info.json"
+
+[network]
+address = "192.168.0.1:7040"
+
+[crypto]
+rsa_bits = 2048
+
+[chat]
+address = "192.168.0.1:7050"
